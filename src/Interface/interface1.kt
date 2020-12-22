@@ -11,7 +11,9 @@ fun main(array: Array<String>) {
 }
 
 interface Person_ {
-    fun eat()
+    fun eat(){
+
+    }
     fun sleep()
 }
 
@@ -35,7 +37,7 @@ class Student_ : Person_ {
     }
 }
 
-class SoccerPlay_ : Person_ {
+class Teacher : Person_ {
     override fun eat() {
 
     }
